@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebda;
+}
+
+header {
+    text-align: center;
+    padding: 5vw; /* Alterado para uma unidade de visualização */
+    background-color: #834f23;
+    color: black;
+    font-family: serif;
+}
+
+header h1 {
+    font-size: 5vw; /* Alterado para uma unidade de visualização */
+    font-family: serif;
+}
+
+header p {
+    font-size: 4vw; /* Alterado para uma unidade de visualização */
+}
+
+p {
+    color: black;
+    text-align: center;
+    margin: 2vw 0; /* Alterado para uma unidade de visualização */
+}
+
+main {
+    padding-top: 10vw; /* Alterado para uma unidade de visualização */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vw; /* Alterado para uma unidade de visualização */
+    padding: 2vw; /* Alterado para uma unidade de visualização */
+}
+
+#sujestoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vw; /* Alterado para uma unidade de visualização */
+    padding: 2vw; /* Alterado para uma unidade de visualização */
+}
+
+.presentes {
+    flex: 0 0 calc(30% - 2vw); /* Alterado para uma unidade de visualização */
+    max-width: calc(30% - 2vw); /* Alterado para uma unidade de visualização */
+    padding: 2vw; /* Alterado para uma unidade de visualização */
+    border: 1px solid black;
+    border-radius: 2vw; /* Alterado para uma unidade de visualização */
+    background-color: #b88b5c;
+    text-align: center;
+}
+
+.presentes img.presente {
+    max-width: 100%; /* Alterado para uma porcentagem */
+    height: auto;
+    object-fit: cover;
+    border-radius: 2vw; /* Alterado para uma unidade de visualização */
+}
+
+.presentes h2, .presentes p {
+    color: black;
+}
+
+button {
+    color: black;
+    background-color: #b88b5c;
+    border-radius: 5vw; /* Alterado para uma unidade de visualização */
+    width: 20vw; /* Alterado para uma unidade de visualização */
+}
+
+button:hover {
+    color: white;
+}
